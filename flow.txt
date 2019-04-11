@@ -1,0 +1,8 @@
+What is Threat?
+What is Threat Intelligence?
+Why is it needed?
+What is Vulnerability Management?
+Why is it needed?
+Tools associated : NVD, CSS, CIF, CVE
+About the slides
+By team..

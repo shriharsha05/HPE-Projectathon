@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>HPE Projectathon</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- for dim background -->
+        <style>
+            html.dimbg .slide-background {
+                opacity: 0.2 !important;}
+        </style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+    </head>
+    
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+                <section data-background-size="contain" data-background-color="#ffffff" data-background-transition="zoom">
+                    <img src="images/hpe.png" height="65%" width="65%" />
+                    <h3 style="font-family:Futura; align: center;">PROJECTATHON</h3>
+                    <h3 style="font-family:Futura; align: center">Vulnerability Management & Threat Intelligence</h3>
+                </section>
+
+                <!--Threats and Threat Intelligence section-->
+                <section>  
+                    <section data-background="images/threat1.png" data-background-size="contain" data-background-transition="zoom" data-transition="convex" data-background-color="#ffffff">
+                        <h2 style="font-family:Futura;align: center;">THREATS</h2>
+                    </section>
+                     
+                    <section data-background-size="contain" data-transition="convex" data-background="#b2ebf2">
+                        <h2 style="font-family:Futura;align: center;">What is Threat?</h2>
+                        <p style="font-family:Garamond;" class="fragment">
+                            A potential cause of an incident that may result in harm to a system or organization
+                            Example: In a system that allows weak passwords
+                        </p>
+
+                        <ul style="font-family:Garamond;" class="fragment">
+                            <li><b>Threat:</b></br>An intruder can exploit the password weakness to break into the system</li>
+                            <li><b>Threat Agent:</b></br>Entities that would knowingly seek to manifest a threat</li>
+                        </ul>
+                    </section>
+
+                    <section data-background-size="contain" data-transition="convex" data-background="#d4e157">
+                        <h2 style="font-family:Futura;align: center;">Who is the enemy? Why do they do it?</h2>
+                        <p style="font-family:Garamond;">
+                            Offenders:
+                            <ol style="font-family:Garamond;">
+                                <li class="fragment">Crackers</li>
+                                <li class="fragment">Information System's Criminals</li>
+                                <li class="fragment">Vandals</li>
+                            </ol>
+                        </p>
+                        
+                    </section>
+
+                    <section data-background-size="contain" data-transition="convex" data-background="#d4e157">
+                        <h2 style="font-family:Futura;align: center;">Who is the enemy? Why do they do it?</h2>
+                        <p style="font-family:Garamond;">
+                            Components of threat:
+                            <ol style="font-family:Garamond;">
+                                <li class="fragment">Threat Agents</li>
+                                <li class="fragment">Capability</li>
+                                <li class="fragment">Threat inhibitors</li>
+                                <li class="fragment">Threat Catalysts</li>
+                                <li class="fragment">Threat Amplifiers</li>
+                                <li class="fragment">Threat Agent Motivators</li>
+                            </ol>
+                        </p>
+                    </section>
+
+                    <section data-background-size="contain" data-transition="convex" data-background="#b2ebf2">
+                        <h2 style="font-family:Futura;align: center;">Threat Agents types:</h2>
+                    
+                        <ol style="font-family:Garamond;" class="fragment">
+                            <li><b>Natural:</b></br>fire, floods, power failure, earth quakes, etc.</li>
+                            <li><b>Unintentional:</b></br>insider, outsider---primarily non-hostile</li>
+
+                            <li><b>Intentional:</b></br>Insider, outsider---hostile or non-hostile (curious):</br>
+                            Foreign agents, industrial espionage, terrorists, organized crime, hackers and crackers,insiders, political dissidents,
+                            vendors and suppliers</li>
+                        </ol>
+                    </section>
+
+                    <section data-background-size="contain" data-transition="convex" data-background="#b2ebf2">
+                        <h2 style="font-family:Futura;align: center;">Top Database Security Threats:</h2>
+
+                        <ol style="font-family:Garamond;" class="fragment">
+                            <li>Excessive Privilege Abuse</li>
+                            <li>Legitimate Privilege Abuse</li>
+                            <li>SQL Injection</li>
+                        </ol>
+                    </section>
+                    
+                    <section data-background-size="contain" data-transition="convex" data-background="#b2ebf2">
+                        <h2 style="font-family:Futura;align: center;">Top Web Threats:</h2>
+                    
+                        <ol style="font-family:Garamond;" class="fragment">
+                            <li>Old Browsers, Vulnerable Plugins</li>
+                            <li>Good Sites Hosting Bad Content</li>
+                            <li>Mobile Apps And The Unsecured Web</li>
+                        </ol>
+                    </section>
+
+                    <section data-background-size="contain" data-transition="convex" data-background="#b2ebf2">
+                        <h2 style="font-family:Futura;align: center;">Real world examples:</h2>
+                    
+                        <ol style="font-family:Garamond;">
+                            <li  class="fragment">
+                                <b>Suspect IP:</b>
+                                <ul>
+                                    <li>Collected from global blacklist?</li>
+                                    <li>One time use?</li>
+                                    <li>Bad data?,date and time?</li>
+                                </ul>
+                            </li>
+                            <li  class="fragment">
+                                <b>What you are NOT capturing:</b>
+                                <ul>
+                                    <li>Downloader Trojan detected and removed</li>
+                                    <li>Other undetected variants?</li>
+                                    <li>What does it download?What campaign?</li>
+                                </ul>
+
+                            </li>
+                        </ol>
+                    </section>
+
+                    <section data-background="#ffffff">
+                        What is Threat Intelligence?
+                    </section>
+
+                    <section data-background="images/threat_intelligence.png" data-background-size="original" data-background-transition="convex"
+                        data-transition="slide-in fade-out" data-background-color="#ffffff">
+                    </section>
+
+                    <section data-background="#ffffff"> 
+                        Steps In Threat Intelligence
+                    </section>
+                </section>
+
+                <!--Vulnerability Management-->
+                <section>
+                    <section data-background="images/vulnerability1.jpg" data-background-size="original" data-background-transition="zoom" data-background-color="#ffffff">
+                        <h2 style="font-family:Futura;align: center;">Vulnerability Management</h2>
+                    </section>  
+
+                </section>
+
+                <!--Tools section-->
+                <section>
+                    <section data-background-color="#ffffff"  data-transition="zoom fade-out">
+                        <img src="images/nvd.png" style="align:center;">
+                    </section>
+
+                    <section data-background-color="#ffffff" data-transition="slide">
+                        <img src="images/nvd2.png" style="align:center;">
+                    </section>
+
+                    <section data-background-color="#ffffff" data-transition="slide">
+                        <img src="images/cve.jpg" style="align:center;">
+                    </section>
+
+                    <section data-background-color="#ffffff" data-transition="slide">
+                        <img src="images/cvss.jpg" style="align:center;">
+                    </section>
+                </section>
+
+                <section>
+                    <h1>By</h1>
+                    <p style="font-size: xx-large">Shriharsha M: shriharsha05@computer.org<br><br>
+                    Likitha D T: likitha@gmail.com<br><br>
+                    Sushanth Srivatsava: sushant@gmail.com<br><br>
+                    Rahul Kumar<br><br>
+                    </p>
+                </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
